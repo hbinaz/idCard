@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+   <head>
+	<link rel="stylesheet" href="style.css">
+       <meta charset="utf-8">
+       <title></title> 
+   </head>
+   <body>
+     <h1>Let's Create an ID Card!</h1>
+     
+	<form id="studentInfo">
+	    First Name:</br><input id="firstName" type="text"/></br>
+	    Last Name:</br><input id="lastName" type="text"/></br>
+	    Age:</br><input id="age" type="text"/></br>
+	    Phone Number:</br><input id="phoneNumber" type="text"/></br>
+	    Address:</br><input id="address" type="text"/></br></br>
+	    <button onclick="idCard()">Get ID card!</button>
+	</form>
+	
+		
+
+
+      <div id="idCard">
+          <img src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg">
+          <p id="postFullName"></p>
+          <p id="postAge"></p>
+          <p id="postPhoneNumber"></p>
+          <p id="postAddress"></p>
+      </div>
+	<script src="script.js"></script>
+   </body>
+</html>
